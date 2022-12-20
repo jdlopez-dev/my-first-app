@@ -8,6 +8,7 @@ import { WarningAlertComponent } from './exercises/Task_1_Practicing_Components/
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { UserComponent } from './exercises/Task_2_Practicing_Databinding/user/user.component';
+import { PracticingDirectivesComponent } from './exercises/Task_3_Practicing_Directives/practicing-directives/practicing-directives.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { UserComponent } from './exercises/Task_2_Practicing_Databinding/user/us
     WarningAlertComponent,
     SuccessAlertComponent,
     UserComponent,
+    PracticingDirectivesComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
